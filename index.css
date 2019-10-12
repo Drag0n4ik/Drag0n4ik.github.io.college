@@ -1,0 +1,414 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+	transition: all 0.5s ease-in;
+
+
+}
+* a{
+	text-decoration: none;
+}
+*:hover{
+	color: red;
+	transition: all 0.5s ease-in;
+}
+body{
+	background: black;
+	font-family: -apple-sestem,BlinkMacSystemFont, "Segoe UI",Rodoto, "Helvetica Neue", Arial ,sans-serif,"apple Color Emoji";
+}
+.head{
+	width: 80%;
+	height: 150px;
+	background: #412422;
+	margin: auto ;
+	text-align: center;
+}
+.head h1{
+	text-align: center;
+	padding-top: 40px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
+.br{
+	width: 80%;
+	height: 7px;
+	background: #242344;
+	margin: auto;
+}
+.br_1{
+	width: 80%;
+	height: 7px;
+	background: #999;
+	margin: auto;
+}
+.menu{
+	width: 80%;
+	height: 60px;
+	margin: auto;
+	background: #242344;
+	
+	text-align: center;
+
+}
+.menu a{
+	width: 16.3%;
+	display: inline-block;
+		
+	margin:auto;
+	font-size: 1.5em;
+	
+	
+}
+/* главная */
+.glav_text{
+ 	width: 80%;
+ 	height: 700px;
+ 	margin: auto;
+ 	background: #999;
+}
+.glav_text p , b{
+	
+	
+	text-align: justify;
+}
+
+.glav_text b{
+	color: black;
+}
+.glav_text p:hover{
+	color: white;
+}
+.glav_text b:hover{
+	color: yellow;
+}
+.bottom{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	background: #546;
+}
+/*под главная */
+.text{
+ 	width: 80%;
+ 	height: 700px;
+ 	margin: auto;
+ 	background: #999;
+}
+.text p , b{
+	
+	
+	text-align: justify;
+}
+.p{
+	font-size: 1.2em;
+	padding: 10px;
+}
+.text b{
+	color: black;
+}
+.text p:hover{
+	color: white;
+}
+.text b:hover{
+	color: yellow;
+}
+.bottom{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	background: #546;
+}
+
+/* стрела вверх*/
+.buttonup {
+width:88px; 
+height:118px;
+position:fixed;
+bottom:20px;
+right:50px;
+transition: all 2s ease-in;
+display: none;
+}
+
+
+.none_menu{
+	width: 70px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 30px;
+	text-align: center;
+
+}
+.none_menu button{
+	margin: 10px;
+}
+.topic{
+	padding: 10px;
+	float: right;
+	display: none;
+}
+/* стили для фона*/
+.white{
+	background: white;
+}
+.black{
+	background: black;
+}
+.green{
+	background: green;
+}
+
+.slaider{
+	margin-top: 70px;
+	text-align: center;
+
+}
+/* под меню ЛТ*/
+
+.lt_pod_menu{
+	width: 80%;
+	background: #242344;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.lt_pod_link{
+	display: inline-block;
+	
+}
+.lt_pod_link:hover{
+	background: #888;
+}
+.lt_pod_link p{
+	font-size: 1em;
+	text-align: center;
+}
+.lt_pod_menu a{
+	display: inline-block;
+	
+	width: 10%;
+}
+.lt_pod_text{
+	margin-top: 10px;
+	background: #9989;
+	padding: 10px;
+	display: inline-block;
+	 
+}
+.lt_pod_text_left{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.lt_pod_text_right{
+	width: 55%;
+	float: right;
+}
+.lt_pod_text_right{
+
+    font-size: 1.2em;
+    text-align: justify;
+}
+#div2, #div3, #div4, #div5, #div6,#lt_pod_div2, #lt_pod_div3, #lt_pod_div4, #lt_pod_div5, #lt_pod_div6,#lt_pod_div7,#lt_pod_div8,#lt_pod_div9,#st_pod_div2, #st_pod_div3, #st_pod_div4,#tt_pod_div2, #tt_pod_div3, #tt_pod_div4, #tt_pod_div5, #tt_pod_div6,#tt_pod_div7,#tt_pod_div8,#pt-cay_pod_div2, #pt-cay_pod_div3, #pt-cay_pod_div4, #pt-cay_pod_div5, #pt-cay_pod_div6,#cay_pod_div2, #cay_pod_div3, #cay_pod_div4, #cay_pod_div5, #cay_pod_div6{
+	display: none;
+}
+
+/* под меню СТ*/
+
+.st_pod_menu{
+	width: 80%;
+	background: #242344;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+.st_pod_link{
+	display: inline-block;
+	
+}
+.st_pod_link:hover{
+	background: #888;
+}
+.st_pod_link p{
+	font-size: 1em;
+	text-align: center;
+}
+.st_pod_menu a{
+	display: inline-block;
+	
+	width: 20%;
+}
+.st_pod_text{
+	margin-top: 10px;
+	background: #9989;
+	padding: 10px;
+	display: inline-block;
+	 
+}
+.st_pod_text_left{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.st_pod_text_right{
+	width: 55%;
+	float: right;
+}
+.st_pod_text_right{
+
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* под меню ТТ*/
+
+.tt_pod_menu{
+	width: 80%;
+	background: #242344;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+.tt_pod_link{
+	display: inline-block;
+	
+}
+.tt_pod_link:hover{
+	background: #888;
+}
+.tt_pod_link p{
+	font-size: 1em;
+	text-align: center;
+}
+.tt_pod_menu a{
+	display: inline-block;
+	
+	width: 10%;
+}
+.tt_pod_text{
+	margin-top: 10px;
+	background: #9989;
+	padding: 10px;
+	display: inline-block;
+	 
+}
+.tt_pod_text_left{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.tt_pod_text_right{
+	width: 55%;
+	float: right;
+}
+.tt_pod_text_right{
+
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* под меню ПТ-САУ*/
+
+.pt-cay_pod_menu{
+	width: 80%;
+	background: #242344;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+.pt-cay_pod_link{
+	display: inline-block;
+	
+}
+.pt-cay_pod_link:hover{
+	background: #888;
+}
+.pt-cay_pod_link p{
+	font-size: 1em;
+	text-align: center;
+}
+.pt-cay_pod_menu a{
+	display: inline-block;
+	
+	width: 10%;
+}
+.pt-cay_pod_text{
+	margin-top: 10px;
+	background: #9989;
+	padding: 10px;
+	display: inline-block;
+	 
+}
+.pt-cay_pod_text_left{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.pt-cay_pod_text_right{
+	width: 55%;
+	float: right;
+}
+.pt-cay_pod_text_right{
+
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* под меню ПТ-САУ*/
+
+.cay_pod_menu{
+	width: 80%;
+	background: #242344;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+.cay_pod_link{
+	display: inline-block;
+	
+}
+.cay_pod_link:hover{
+	background: #888;
+}
+.cay_pod_link p{
+	font-size: 1em;
+	text-align: center;
+}
+.cay_pod_menu a{
+	display: inline-block;
+	
+	width: 10%;
+}
+.cay_pod_text{
+	margin-top: 10px;
+	background: #9989;
+	padding: 10px;
+	display: inline-block;
+	 
+}
+.cay_pod_text_left{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.cay_pod_text_right{
+	width: 55%;
+	float: right;
+}
+.cay_pod_text_right{
+
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+table{
+	text-align: center;
+}
