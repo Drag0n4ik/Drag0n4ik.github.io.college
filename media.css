@@ -124,6 +124,9 @@
 	}
 }
 @media only screen and (max-width: 560px){
+	.head img{
+		height: 410px;
+	}
 	.menu{
 		height: 100px;
 	}
