@@ -113,7 +113,9 @@
 	.text{
 		height: 1000px;
 	}
-
+	.glav_text{
+		height: 750px;
+	}
 }
 @media only screen and (max-width: 630px){
 	.text{
@@ -125,6 +127,9 @@
 	#div1 img{
 	width: 420px;
 	height: 350px;
+	}
+	.glav_text{
+		height: 570px;
 	}
 }
 @media only screen and (max-width: 560px){
@@ -164,6 +169,9 @@
 	padding-top:  10px;
 	padding-bottom: 3px;
 	}
+.glav_text{
+		height: 550px;
+	}
 
 }
 
@@ -193,6 +201,9 @@
 	.glav_text{
 		height: 600px;
 	}
+	.glav_text{
+		height: 450px;
+	}
 }
 @media only screen and (max-width: 412px){
 	.text{
@@ -205,6 +216,9 @@
 
 }
 @media only screen and (max-width: 412px){
+	.glav_text{
+		height: 450px;
+	}
 	#div1 img{
 		width: 280px;
 		height: 180px;
