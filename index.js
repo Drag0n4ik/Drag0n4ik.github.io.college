@@ -50,7 +50,7 @@ function color_green(){
 function color_white(){
     document.body.style.background = "white";
 }
-
+/*
 // слайдер
 var locations = new Array("https://img3.goodfon.ru/original/960x800/d/ac/t-34-85-srednii-tank-pamiatnik.jpg","https://img-b.photosight.ru/c5d/5694660_large.jpg","https://topwar.ru/uploads/posts/2019-04/1554458138_ia5a6449.jpg");
         var currentImage = 0;
@@ -62,7 +62,7 @@ var locations = new Array("https://img3.goodfon.ru/original/960x800/d/ac/t-34-85
             document.images["picture"].src = locations[currentImage];
             return false;
         }
-
+*/
 // подменю ЛТ
 $(function() {
     $('.lt_pod_link').on('click', function(e) {

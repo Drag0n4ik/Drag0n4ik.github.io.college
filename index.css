@@ -18,6 +18,9 @@ body{
 * li{
 	 list-style-type: none;
 }
+statya:hover img { 
+	width:500px; 
+}
 .head{
 	width: 80%;
 	height: 300px;
@@ -189,10 +192,16 @@ display: none;
 	background: green;
 }
 
-.slaider{
-	margin-top: 70px;
+.slider{
+	margin-top: 20px;
 	text-align: center;
-
+	background: #666;
+	margin: auto;
+}
+.slider img{
+	margin: auto;
+	width: 90%;
+	height: 550px;
 }
 /* под меню ЛТ*/
 
