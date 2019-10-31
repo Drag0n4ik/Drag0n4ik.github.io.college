@@ -12,10 +12,32 @@
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body >
+
+<!-- Скрипт плавного открытия и закрытия блока -->
+ <script type="text/javascript">
+<!-- скритие блока(block)
+function viewdiv(id){
+var el=document.getElementById(id);
+if(el.style.display=="none"){
+el.style.display="block";
+} else {
+el.style.display="none";
+}
+}
+
+</script>
+
+
 <!--
 	<a href="#" title="Вернуться наверх" class="buttonup"><img src="img/arrow.png"></a>
--->
-	<div class="head">
+--> 
+
+<!--  скрывать блок  -->
+<div class="block">
+<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Скрыть/Показать слайдер</a>
+</div>
+	<div id="mydiv" class="head">
+
         <!-- Слайдер -->
 <script>
   $(document).ready(function(){
@@ -31,7 +53,7 @@
 
 	<div class="br"></div>
   <div class="menu">
-  	
+  	<a href="#div1" class="link">Главная</a>
   	<a href="#div2" class="link">Легкие танки</a>
   	<a href="#div3" class="link">Среднийе танки</a>
   	<a href="#div4" class="link">Тяжелые танки</a>
@@ -48,7 +70,10 @@
     <a href="#" onclick="return nextImage()">Следующее изображение</a>
 </div>
 -->
-
+ <div class="bar" id="div1"><div class="glav_text" >
+    <video src="video/Момент Танкового биатлона, когда один танк утонул, другой перевернулся.mp4" controls></video>
+</div>
+</div>
   <div class="bar" id="div2"><div class="text">
   	<p class="p">
   	<b>Легкий танк</b> — один из типов по массе танка (боевой машины), танковых (бронетанковых) войск (сил) в вооружённых силах многих государств. В общем случае понятие лёгкого танка включает в себя танки меньшей массы, чем средние.

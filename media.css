@@ -43,7 +43,9 @@
 	}
 }
 @media only screen and (max-width: 1150px){
-
+	.glav_tex{
+		height: 650px;
+	}
 	#div2 img,#div3 img ,#div4 img ,#div5 img ,#div6 img{
 		width: 450px;
 		height: 350px;
@@ -56,7 +58,9 @@
 	
 }
 @media only screen and (max-width: 1040px){
-
+	.glav_text{
+		height: 600px;
+	}
 	.menu a{
 		
 		
@@ -94,7 +98,7 @@
 	}
 @media only screen and (max-width: 930px){
 	.text{
-		height: 900px;
+		height: 550px;
 	}
 	.lt_pod_text_left,.st_pod_text_left,.tt_pod_text_left,.pt-cay_pod_text_left,.cay_pod_text_left{
 		width: 100%;
@@ -108,13 +112,18 @@
 		text-align: center;
 	}
 }
+@media only screen and (max-width: 856px){
+	.glav_text{
+		height: 450px;
+	}
+}
 @media only screen and (max-width: 766px){
 
 	.text{
 		height: 1000px;
 	}
 	.glav_text{
-		height: 750px;
+		height: 400px;
 	}
 }
 @media only screen and (max-width: 630px){
@@ -129,7 +138,7 @@
 	height: 350px;
 	}
 	.glav_text{
-		height: 570px;
+		height: 360px;
 	}
 }
 @media only screen and (max-width: 560px){
@@ -170,7 +179,7 @@
 	padding-bottom: 3px;
 	}
 .glav_text{
-		height: 550px;
+		height: 300px;
 	}
 
 }
@@ -198,14 +207,15 @@
 		width: 350px;
 		height: 250px;
 	}
+	
 	.glav_text{
-		height: 600px;
-	}
-	.glav_text{
-		height: 450px;
+		height: 250px;
 	}
 }
 @media only screen and (max-width: 412px){
+	.glav_text{
+		height: 200px;
+	}
 	.text{
 		height: 1380px;
 	}
@@ -217,7 +227,7 @@
 }
 @media only screen and (max-width: 412px){
 	.glav_text{
-		height: 450px;
+		height: 200px;
 	}
 	#div1 img{
 		width: 280px;

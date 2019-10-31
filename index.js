@@ -1,4 +1,15 @@
 
+// скритие блока(block)
+function viewdiv(id){
+var el=document.getElementById(id);
+if(el.style.display=="none"){
+el.style.display="block";
+} else {
+el.style.display="none";
+}
+}
+
+
 // меню
 
 
@@ -124,3 +135,4 @@ $(function() {
         $(block).css('display', 'block');
     });
 });
+
