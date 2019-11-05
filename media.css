@@ -8,8 +8,11 @@
 	}
 }
 @media only screen and (max-width: 1366px){
-	.block{
+	.glav_block{
 		width: 100%;
+	}
+	.block{
+		width: 20%;
 	}
 	.head{
 		width: 100%;

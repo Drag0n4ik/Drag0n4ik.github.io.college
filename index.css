@@ -32,13 +32,28 @@ img{
 	text-align: center;
 
 }
+.head a{
+	display: inline-block;
+}
 /* скрывать блок */
-.block{
+.glav_block{
 	width: 80%;
+	background: #242344;
+	margin: auto;
+}
+.block{
+	width: 20%;
 	margin: auto;
 	text-align: center;
-	background: #242344;	
+	background: #999;	
 	height: 30px;
+}
+.block:hover{
+	background: #321;
+	color: white;
+}
+.block a:hover{
+	color: white;
 }
 .head img{
 	width: 100%;
