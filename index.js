@@ -1,3 +1,22 @@
+//slider
+$(function() {
+            $("#button_off").click(function() {
+              $(".container_slider").css("display", "none");
+
+              $("#button_off").css("display", "none");
+
+              $("#button_on").css("display", "block");
+            });
+
+            $("#button_on").click(function() {
+              $(".container_slider").css("display", "block");
+
+              $("#button_off").css("display", "block");
+
+              $("#button_on").css("display", "none");
+            });
+          });
+
 
 // скритие блока(block)
 function viewdiv(id){
@@ -74,6 +93,24 @@ var locations = new Array("https://img3.goodfon.ru/original/960x800/d/ac/t-34-85
             return false;
         }
 */
+//slider
+$(function() {
+            $("#button_off").click(function() {
+              $(".container_slider").css("display", "none");
+
+              $("#button_off").css("display", "none");
+
+              $("#button_on").css("display", "block");
+            });
+
+            $("#button_on").click(function() {
+              $(".container_slider").css("display", "block");
+
+              $("#button_off").css("display", "block");
+
+              $("#button_on").css("display", "none");
+            });
+          });
 // подменю ЛТ
 $(function() {
     $('.lt_pod_link').on('click', function(e) {

@@ -8,6 +8,9 @@
 	}
 }
 @media only screen and (max-width: 1366px){
+	.container_button{
+		width: 100%;
+	}
 	.glav_block{
 		width: 100%;
 	}
@@ -52,6 +55,9 @@
 	.glav_tex{
 		height: 650px;
 	}
+	.text{
+		height: 750px;
+	}
 	#div2 img,#div3 img ,#div4 img ,#div5 img ,#div6 img{
 		width: 450px;
 		height: 350px;
@@ -87,25 +93,9 @@
     width: 15%;
 }
 }
-	@media only screen and (max-width: 930px){
-
-	.st_pod_text_right {
-    font-size: 1em;
-    text-align: justify;
-}
-	#div2 img,#div3 img ,#div4 img ,#div5 img ,#div6 img{
-		width: 350px;
-		height: 250px;
-	}
-	.text{
-		height: 780px;
-	}
-
-	}
+	
 @media only screen and (max-width: 930px){
-	.text{
-		height: 550px;
-	}
+	
 	.lt_pod_text_left,.st_pod_text_left,.tt_pod_text_left,.pt-cay_pod_text_left,.cay_pod_text_left{
 		width: 100%;
 		margin: auto;
@@ -116,6 +106,23 @@
 		width: 100%;
 		
 		text-align: center;
+	}
+	st_pod_text_right {
+    font-size: 1em;
+    text-align: justify;
+}
+	#div2 img,#div3 img ,#div4 img ,#div5 img ,#div6 img{
+		width: 350px;
+		height: 250px;
+	}
+	.text{
+		height: 900px;
+	}
+	.menu{
+		height: 100px;
+	}
+	.menu a{
+		width: 30%;
 	}
 }
 @media only screen and (max-width: 856px){
@@ -152,9 +159,10 @@
 		height: 410px;
 	}
 	.menu{
-		height: 100px;
+		height: 130px;
 	}
 	.menu a{
+		
 		padding-top: 20px;
 		width: 30%;
 
@@ -199,6 +207,9 @@
 	}
 }
 @media only screen and (max-width: 468px){
+	.menu{
+		height: 110px;
+	}
 	.text{
 		height: 1260px;
 	}
