@@ -153,6 +153,9 @@
 	.glav_text{
 		height: 360px;
 	}
+	.slider img{
+		height: 400px;
+	}
 }
 @media only screen and (max-width: 560px){
 	.head img{
@@ -213,7 +216,9 @@
 	.text{
 		height: 1260px;
 	}
-	
+	.slider img{
+		height: 300px;
+	}
 }
 @media only screen and (max-width: 436px){
 	.menu a{
@@ -248,6 +253,9 @@
 	}
 	#div1 img{
 		width: 280px;
+		height: 180px;
+	}
+	.slider img{
 		height: 180px;
 	}
 }
