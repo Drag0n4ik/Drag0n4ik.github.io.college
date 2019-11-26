@@ -129,6 +129,7 @@
 	}
 	.menu a{
 		width: 30%;
+		padding: 5px;
 	}
 }
 @media only screen and (max-width: 856px){
@@ -139,14 +140,19 @@
 	.text{
 		height: 1000px;
 	}
-
+	.slider img{
+		height: 450px;
+	}
+	.menu a{
+	padding:5px;
+	}
 }
 @media only screen and (max-width: 630px){
 	.text{
 		height: 1100px;
 	}
 	.menu a{
-	padding-top: -3px;
+	padding:5px;
 	}
 	#div1 img{
 	width: 420px;
@@ -250,4 +256,10 @@
 	.slider img{
 		height: 180px;
 	}
+}
+@media only screen and (max-width: 390px){
+	.menu a {
+    padding-top: 5px;
+    =
+}
 }
