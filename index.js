@@ -72,9 +72,7 @@ jQuery(document).ready(function($){
 function color_black(){
     document.body.style.background = "black"; 
 }
-function color_green(){
-    document.body.style.background = "green";
-}
+
 
 
 function color_white(){

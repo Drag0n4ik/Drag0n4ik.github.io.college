@@ -20,6 +20,9 @@
 	.head{
 		width: 100%;
 	}
+	.hr_1{
+		width: 100%;
+	}
 	.top_menu{
 		width: 100%;
 	}
@@ -50,11 +53,16 @@
 	.glav_text{
 		width: 100%;
 	}
+	.hr_2{
+		width: 100%;
+	}
+	.container_slider{
+		width: 100%;
+	}
+	
 }
 @media only screen and (max-width: 1150px){
-	.glav_tex{
-		height: 650px;
-	}
+	
 	.text{
 		height: 750px;
 	}
@@ -70,9 +78,7 @@
 	
 }
 @media only screen and (max-width: 1040px){
-	.glav_text{
-		height: 600px;
-	}
+	
 	.menu a{
 		
 		
@@ -126,18 +132,14 @@
 	}
 }
 @media only screen and (max-width: 856px){
-	.glav_text{
-		height: 450px;
-	}
+
 }
 @media only screen and (max-width: 766px){
 
 	.text{
 		height: 1000px;
 	}
-	.glav_text{
-		height: 400px;
-	}
+
 }
 @media only screen and (max-width: 630px){
 	.text{
@@ -150,9 +152,7 @@
 	width: 420px;
 	height: 350px;
 	}
-	.glav_text{
-		height: 360px;
-	}
+
 	.slider img{
 		height: 400px;
 	}
@@ -195,9 +195,7 @@
 	padding-top:  10px;
 	padding-bottom: 3px;
 	}
-.glav_text{
-		height: 300px;
-	}
+
 
 }
 
@@ -230,14 +228,10 @@
 		height: 250px;
 	}
 	
-	.glav_text{
-		height: 250px;
-	}
+
 }
 @media only screen and (max-width: 412px){
-	.glav_text{
-		height: 200px;
-	}
+
 	.text{
 		height: 1380px;
 	}
@@ -248,9 +242,7 @@
 
 }
 @media only screen and (max-width: 412px){
-	.glav_text{
-		height: 200px;
-	}
+
 	#div1 img{
 		width: 280px;
 		height: 180px;

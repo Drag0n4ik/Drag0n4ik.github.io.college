@@ -3,12 +3,14 @@
 	padding: 0;
 	color: white;
 	transition: all 0.5s ease-in;
+
 }
 * a{
+	font-family: 'Pacifico', cursive;
 	text-decoration: none;
 }
 *:hover{
-	color: red;
+	
 	transition: all 0.5s ease-in;
 }
 body{
@@ -38,6 +40,27 @@ img{
 }
 /**/
 
+
+.hr_1{
+	border: none;
+	margin: auto;
+	width: 80%;
+	height: 20px;
+    background: rgb(36,35,68);
+    background: -webkit-linear-gradient(rgba(36,35,68,1) 0%, rgba(36,35,68,1) 16%, rgba(153,153,153,1) 90%);
+    background: -o-linear-gradient(rgba(36,35,68,1) 0%, rgba(36,35,68,1) 16%, rgba(153,153,153,1) 90%);
+    background: linear-gradient(rgba(36,35,68,1) 0%, rgba(36,35,68,1) 16%, rgba(153,153,153,1) 90%);
+}
+.hr_2{
+	border: none;
+	margin: auto;
+	width: 80%;
+	height: 20px;
+	background: rgb(153,153,153);
+    background: -webkit-linear-gradient(rgba(153,153,153,1) 0%, rgba(153,153,153,1) 16%, rgba(3,71,105,1) 90%);
+    background: -o-linear-gradient(rgba(153,153,153,1) 0%, rgba(153,153,153,1) 16%, rgba(3,71,105,1) 90%);
+    background: linear-gradient(rgba(153,153,153,1) 0%, rgba(153,153,153,1) 16%, rgba(3,71,105,1) 90%) ;
+}
 .container_button{
   width: 80%;
   background: #242344;
@@ -74,18 +97,12 @@ img{
 .container_slider{
  width: 80%;
  margin: auto;
+ background: #242344;
 }
 .slider{
 
 }
 
-
-/* скрывать блок */
-.glav_block{
-	width: 80%;
-	background: #242344;
-	margin: auto;
-	height: 80px;
 
 	
 	
@@ -134,6 +151,7 @@ img{
 	background: #999;
 	margin: auto;
 }
+
 .menu{
 	text-align: center;
 	width: 80%;
@@ -149,11 +167,12 @@ img{
 	margin:auto;
 	font-size: 1.5em;
 	border-radius: 20px;
-	box-shadow: 0 0 5px 3px black;	
-	transition: all 0.6s;
+	
 	vertical-align: middle;
 }
 .menu a:hover{
+	box-shadow: 0 0 5px 3px black;	
+	transition: all 0.3s;
 	transition: all 0.6s;
 	background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
 	color: white;
@@ -172,9 +191,8 @@ td:hover{
 /* главная */
 .glav_text{
  	width: 80%;
- 	height: 700px;
  	margin: auto;
- 	background: #242344;
+ 	background: #999;
 }
 .glav_text p , b{
 	
@@ -188,14 +206,12 @@ td:hover{
 .glav_text p:hover{
 	color: white;
 }
-.glav_text b:hover{
-	color: yellow;
-}
+
 .bottom{
 	width: 80%;
 	height: 100px;
 	margin: auto;
-	background: #546;
+	background: #025167;
 }
 /*под главная */
 .text{
@@ -219,14 +235,25 @@ td:hover{
 .text p:hover{
 	color: white;
 }
-.text b:hover{
-	color: yellow;
-}
+
 .bottom{
 	width: 80%;
 	height: 100px;
 	margin: auto;
-	background: #546;
+	background: #034769;
+}
+.bottom li {
+  vertical-align: middle;
+
+  text-align: center;
+
+}
+.bottom li:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 5px 3px black;
+  background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
+  color: white;
+  transition: all 0.5s;
 }
 .bottom_left{
 	display: inline-block;
@@ -276,8 +303,16 @@ display: none;
 .white{
 	background: white;
 }
+.white:hover{
+	color: black;
+}
 .black{
 	background: black;
+	color: black;
+
+}
+.black:hover{
+	color: white;
 }
 .green{
 	background: green;
@@ -295,14 +330,23 @@ display: none;
 	width: 100%;
 	height: 90vh;
 }
+.bx-wrapper{
+	width: 80%;
+	margin: 0px auto;
+	background: #999;
+	border: none;
+	background: #242344;
 
+
+
+}
+.bx-pager, .bx-default-pager {display: none;}
 .bx-controls-direction{
-	display: none;
+	
 	
 }
 .bx-wrapper{
-	background: #999;
-	border: none;
+	
 }
 .bx-viewport{
 	background: #999;
@@ -312,22 +356,29 @@ display: none;
 /*  плеер */
 
 video{
-	top: 20px;
-	width: 100%;
-	
+	padding: 20px 0px;
+	display: block;
+	margin: auto;
+
+	width: 80%;
+
 }
 
 /* под меню ЛТ*/
 
 .lt_pod_menu{
+	display: inline-block;
 	width: 80%;
 	background: #242344;
 	display: block;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
+	border-radius: 50px;
 }
-
+.lt_pod_menu a{
+	vertical-align: middle;
+}
 .lt_pod_link{
 	display: inline-block;
 	
@@ -344,18 +395,18 @@ video{
 .lt_pod_menu a{
   width: 10%;
   margin: 10 0 0 10;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 3px black;
+  
   
 }
 .lt_pod_menu a:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 5px 3px black;
   background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
   color: white;
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 .lt_pod_text{
 	margin-top: 10px;
-	background: #9989;
 	padding: 10px;
 	display: inline-block;
 	 
@@ -381,26 +432,32 @@ video{
 /* под меню СТ*/
 
 .st_pod_menu{
+	display: inline-block;
 	width: 80%;
 	background: #242344;
 	display: block;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
+	border-radius: 50px;
+}
+.st_pod_menu a {
+	vertical-align: middle;
 }
 .st_pod_link{
 	width: 10%;
   margin: 10 0 0 10;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 3px black;
+
   display: flex;
   justify-content: center;
 	
 }
 .st_pod_link:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 5px 3px black;
   background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
   color: white;
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 .st_pod_link p{
 	font-size: 1em;
@@ -413,7 +470,6 @@ video{
 }
 .st_pod_text{
 	margin-top: 10px;
-	background: #9989;
 	padding: 10px;
 	display: inline-block;
 	 
@@ -436,26 +492,32 @@ video{
 /* под меню ТТ*/
 
 .tt_pod_menu{
+	display: inline-block;
 	width: 80%;
 	background: #242344;
 	display: block;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
+	border-radius: 50px;
+}
+.tt_pod_menu a {
+	vertical-align: middle;
 }
 .tt_pod_link{
   width: 10%;
   margin: 10 0 0 10;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 3px black;
+
   display: flex;
   justify-content: center;
 	
 }
 .tt_pod_link:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 5px 3px black;
   background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
   color: white;
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 .tt_pod_link p{
 	font-size: 1em;
@@ -468,7 +530,6 @@ video{
 }
 .tt_pod_text{
 	margin-top: 10px;
-	background: #9989;
 	padding: 10px;
 	display: inline-block;
 	 
@@ -491,26 +552,32 @@ video{
 /* под меню ПТ-САУ*/
 
 .pt-cay_pod_menu{
+	display: inline-block;
 	width: 80%;
 	background: #242344;
 	display: block;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
+	border-radius: 50px;
+}
+.pt-cay_pod_menu a {
+	vertical-align: middle;
 }
 .pt-cay_pod_link{
   width: 10%;
   margin: 10 0 0 10;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 3px black;
+
   display: flex;
   justify-content: center;
 	
 }
 .pt-cay_pod_link:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 5px 3px black;
   background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
   color: white;
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 .pt-cay_pod_link p{
 	font-size: 1em;
@@ -523,7 +590,6 @@ video{
 }
 .pt-cay_pod_text{
 	margin-top: 10px;
-	background: #9989;
 	padding: 10px;
 	display: inline-block;
 	 
@@ -546,26 +612,32 @@ video{
 /* под меню ПТ-САУ*/
 
 .cay_pod_menu{
+	display: inline-block;
 	width: 80%;
 	background: #242344;
 	display: block;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
+	border-radius: 50px;
+}
+.cay_pod_menu a {
+	vertical-align: middle;
 }
 .cay_pod_link{
   width: 10%;
   margin: 10 0 0 10;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 3px black;
+
   display: flex;
   justify-content: center;
 	
 }
 .cay_pod_link:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 5px 3px black;
   background: linear-gradient(to top, #3399ff 0%, #ffffff 99%);
   color: white;
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 .cay_pod_link p{
 	font-size: 1em;
@@ -578,7 +650,6 @@ video{
 }
 .cay_pod_text{
 	margin-top: 10px;
-	background: #9989;
 	padding: 10px;
 	display: inline-block;
 	 
